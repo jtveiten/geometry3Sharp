@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>59c47793-cc23-45c3-bee2-0760a1178dee</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\Intersector1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\IntrLine2Line2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\IntrLine2Segment2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\IntrLine2Triangle2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\IntrLine3AxisAlignedBox3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\IntrLine3Box3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\IntrLine3Plane3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\IntrRay3AxisAlignedBox3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\IntrRay3Box3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\IntrRay3Triangle3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\IntrSegment2Segment2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\IntrSegment2Triangle2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\IntrSegment3Box3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\IntrSegment3Plane3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\IntrTriangle2Triangle2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)intersection\IntrTriangle3Triangle3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\AxisAlignedBox2d.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\AxisAlignedBox2f.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\AxisAlignedBox2i.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\AxisAlignedBox3d.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\AxisAlignedBox3f.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\AxisAlignedBox3i.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\BoundsUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Box2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Box3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\FastWindingMath.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Frame3f.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\IndexTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\IndexUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Integrate1d.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Interval1d.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Interval1i.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Line2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Line3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\MathUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Matrix2d.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Matrix2f.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Matrix3d.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Matrix3f.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\MatrixUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Plane3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\PrimalQuery2d.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Quaterniond.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Quaternionf.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Query2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Query2Integer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\QueryTuple2d.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Ray3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\ScalarMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Segment2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Segment3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\TransformSequence.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\TransformSequence2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Triangle2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Triangle3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Vector2d.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Vector2f.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Vector2i.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Vector3d.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Vector3f.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Vector3i.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Vector4d.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\Vector4f.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)math\VectorTuple.cs" />
+  </ItemGroup>
+</Project>
