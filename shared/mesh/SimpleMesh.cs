@@ -470,7 +470,7 @@ namespace g3
 
 
 
-
+#if G3_USE_NO_UNSAFE != true
         /*
          * copy internal data into buffers. Assumes that buffers are big enough!!
          */
@@ -508,7 +508,7 @@ namespace g3
             if ( this.HasTriangleGroups)
                 DVector<int>.FastGetBuffer(this.FaceGroups, pBuffer);
         }
-
+#endif
     }
 
 

@@ -354,7 +354,7 @@ namespace g3
          *   function based on the generic type. Hence, we have these static helpers for
          *   common cases...
          */
-
+#if G3_USE_NO_UNSAFE != true
         public static unsafe void FastGetBuffer(DVector<double> v, double * pBuffer)
         {
             IntPtr pCur = new IntPtr(pBuffer);
@@ -389,7 +389,7 @@ namespace g3
             System.Runtime.InteropServices.Marshal.Copy(v.Blocks[N - 1], 0, pCur, v.iCurBlockUsed);
         }
 
-
+#endif
 
         public IEnumerator<T> GetEnumerator() {
             for (int bi = 0; bi < iCurBlock; ++bi) {
